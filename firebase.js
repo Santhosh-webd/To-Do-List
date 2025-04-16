@@ -1,14 +1,15 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
-import { getDatabase, ref, push, onValue, remove, set, update } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-database.js";
+
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+import { getDatabase, ref, push, onValue, remove, update } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-database.js";
+
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD72vMxTzuRcS8gv3DGAAqXuai9ONRT1oI",
-    authDomain: "to-do-list-17c54.firebaseapp.com",
-    databaseURL: "https://to-do-list-17c54-default-rtdb.firebaseio.com",
-    projectId: "to-do-list-17c54",
-    storageBucket: "to-do-list-17c54.firebasestorage.app",
-    messagingSenderId: "167725168329",
-    appId: "1:167725168329:web:a9ef499c0bcb5a6b3c7f18"
+    apiKey: "AIzaSyCKf4FOwswaaGfHjZF5ciBr659lYZiU6Ug",
+    authDomain: "todo-48ad2.firebaseapp.com",
+    projectId: "todo-48ad2",
+    storageBucket: "todo-48ad2.firebasestorage.app",
+    messagingSenderId: "429523470186",
+    appId: "1:429523470186:web:98bc6ca2820aed931a4713"
   };
 
 // Initialize Firebase
